@@ -1,0 +1,95 @@
+.Pricing-Container .title {
+    font-family: "Londrina Sketch", sans-serif;
+    font-size: 70px;
+    text-align: center;
+}
+
+.Pricing-Container {
+    width: 1200px;
+    margin: auto;
+}
+
+.Details {
+    display: flex;
+    justify-content: space-evenly;
+    /* font-family: "Cairo", sans-serif; */
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: "Cabin Sketch", "Londrina Sketch", sans-serif; */
+    font-size: 18px;
+}
+
+.Details > div {
+    position: relative;
+    padding: 0 10px;
+    width: 250px;
+    border: #FAC399 solid 2px;
+    border-radius: 12px;
+    height: 850px;
+    box-sizing: border-box;
+}
+
+.Details > div .lower-section {
+    position: absolute;
+    align-content: flex-end;
+    bottom: 0;
+    /* background-color: aqua; */
+    text-align: center;
+    display: inline-block;
+    margin-left: 45px;
+}
+
+.lower-section :nth-child(2),
+.lower-section1 :nth-child(2) {
+    /* font-family: "Londrina Sketch", sans-serif; */
+    font-family: "Cabin Sketch", "Londrina Sketch", sans-serif;
+}
+
+.Details .p1 {
+    /* font-family: "Londrina Sketch", sans-serif; */
+    font-family: "Cabin Sketch", "Londrina Sketch", sans-serif;
+
+}
+
+.Details .p2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Pricing .num {
+    font-size: 100px;
+    margin: 0;
+    color: #03447E;
+}
+
+.requet-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.btnn {
+    width: 300px;
+    font-size: 18px;
+    background-color: #E39241;
+    color: #FBE0CB;
+    border: none;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 50px 0 0 0;
+    &&:hover {
+        cursor: pointer;
+        background-color: #03447E;
+        color: #FBE0CB;
+    }
+
+}
+
+.btnn a {
+    text-decoration: none;
+    color: #FBE0CB;
+    
+    &&:hover {
+        cursor: pointer;
+        background-color: #03447E;
+        color: #FBE0CB;
+    }
+}

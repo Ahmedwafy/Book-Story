@@ -1,0 +1,65 @@
+.Footer-Container {
+    width: 1200px;
+    margin: auto;
+}
+
+.Footer {
+    /* background-color: rgb(181, 183, 183); */
+}
+
+.logo2 {
+    margin: 0;
+    padding: 0;
+    text-align: start;
+    line-height: .8;
+}
+
+.logo2 a {
+    text-decoration: none;
+    font-family: "Cabin Sketch", "Londrina Sketch", sans-serif;
+    font-size: 50px;
+    color: black;
+    &&:hover {
+        color: #03447E;
+    }
+}
+
+.logo2 a p {
+    font-size: 30px;
+    background-color: #F1A050;
+    border-radius: 10px;
+    /* height: 30px; */
+    margin: 0;
+    padding: 5px;
+    color: black;
+}
+
+.footer-info {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.list,
+.more-list,
+.links {
+    font-family: "Cabin Sketch", "Londrina Sketch", sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.footer-info .list a {
+    text-decoration: none;
+    color: black;
+    &&:hover {
+        color: #03447E;
+    }
+}
+
+.footer-info .more-list a {
+    text-decoration: none;
+    color: black;
+    &&:hover {
+        color: #03447E;
+    }
+}

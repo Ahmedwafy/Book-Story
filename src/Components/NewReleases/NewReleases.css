@@ -1,0 +1,34 @@
+.Container-NewReleases {
+    width: 1200px;
+    margin: auto;
+}
+
+.Container-NewReleases img { 
+    width: 500px;
+    justify-content: space-between;
+    /* background-color: rgb(12, 12, 11); */
+    /* position: relative;
+    left: 750px; */
+}
+
+.Container-NewReleases .first {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Container-NewReleases .title {
+    font-family: "Londrina Sketch", sans-serif;
+    font-size: 22px;
+}
+
+.Container-NewReleases .title img {
+    width: 300px;
+    position: relative;
+    left: 150px;
+    top: 35px;
+}
+
+.Container-NewReleases .release img {
+    width: 500px;
+    margin-bottom: 200px;
+}

@@ -1,0 +1,199 @@
+.Request-Container {
+    width: 1200px;
+    margin: auto;
+}
+
+.Request-Container .image {
+    /* background-color: blue; */
+    position: relative;
+    right: 0px;
+    /* width: 300px; */
+}
+
+.Request-Container .image img {
+    width: 400px;
+}
+
+.plan1, .plan2, .plan3, .plan4 {
+    border: black solid 0px;
+    width: 280px;
+    border-radius: 8px;
+    height: 0px;
+    float: left;
+    overflow: hidden;
+    text-align: center;
+    background-color: #FAC399;
+    margin: 0 10px;
+    animation-name: plan;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    font-family: Arial, Helvetica, sans-serif;
+}
+@keyframes plan {
+    0% {
+        translate: 0 100px;
+        height: 0px;
+    }
+    100% {
+        translate: 0 0;
+        height: 500px;
+    }
+}
+
+.Two-Plans {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Rest-Plans {
+    display: flex;
+    justify-content: start;
+    margin: 55px 0 0 40px;
+    gap: 40px;
+}
+
+.lower-section1 .p1,
+.lower-section2 .p2,
+.lower-section3 .p3,
+.lower-section4 .p4 {
+    font-size: 70px;
+    margin: 0;
+    font-family: "Londrina Sketch", sans-serif;
+}
+
+.lower-section .start {
+    font-size: 20px;
+}
+
+.lower-section1 .p1 {
+    margin-top: 43px;
+}
+
+.lower-section3 .p3 {
+    margin-top: 103px;
+}
+
+.lower-section4 .p4 {
+    margin-top: 265px;
+}
+
+.Request-Container .btn-request {
+    font-size: 20px;
+    width: 280px;
+    margin: 10px 10px;
+    background-color: #FAC399;
+    border-radius: 10px;
+    height: 50px;
+    border: none;
+    animation-name: buttons;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+    font-family: Arial, Helvetica, sans-serif;
+    &&:hover {
+        cursor:pointer;
+        background-color: #F1A050;
+    }
+}
+
+@keyframes buttons {
+    0% {
+        opacity: 0%;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+.Request-Container .windoww {
+    position: fixed;
+    top: 195px;
+    bottom: 80px;
+    height: 500px;
+    width: 1200px;
+    border-radius: 10px;
+    background-color: #FAC399;
+}
+
+.Request-Container .buy {
+    display: flex;
+    position: fixed;
+    top: 195px;
+    bottom: 80px;
+    height: 600px;
+    width: 1200px;
+    border-radius: 10px;
+    background-color: #FAC399;
+}
+
+.buy .form input {
+    width: 90%;
+    border-radius: 5px;
+    height: 30px;
+    margin-top: 5px;
+    border: none;
+    padding-left: 5px;
+    
+}
+
+.buy .form {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    width: 50%;
+}
+
+.buy .form textarea {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 90%;
+    border-radius: 5px;
+    border: none;
+    height: 190px;
+    padding: 5px;
+}
+
+.buy .form2 {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 50%;
+    margin-top: 10px;
+
+}
+
+.buy .form2 .Sammary textarea {
+    border-radius: 5px;
+    border: none;
+    height: 545px;
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 95%;
+    padding: 5px;
+}
+
+.windoww .btn-Close {
+    position: absolute;
+    border-radius: 5px;
+    border: none;
+    height: 40px;
+    width: 100px;
+    bottom: 0;
+    top: 550px;
+    left: 10px;
+    &&:hover {
+        background-color: #F1A050;
+        cursor: pointer;
+    }  
+}
+
+.windoww .btn-Close2 {
+    height: 40px;
+    width: 100px;
+    position: absolute;
+    border-radius: 5px;
+    border: none;   
+    bottom: 0;
+    top: 550px;
+    left: 120px;   
+    &&:hover {
+        background-color: #F1A050;
+        cursor: pointer;
+    }  
+}

@@ -1,0 +1,118 @@
+.Nav-Bar {
+    font-family: "Cabin Sketch", "Londrina Sketch", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    /* background-color: rgb(125, 168, 168); */
+}
+
+.Nav-Bar-Container {
+    width: 1200px; 
+    height: 180px;
+    margin: auto;
+    display: flex;
+    align-items: flex-start;
+}
+
+.Nav-Bar p,
+.Nav-Bar a {
+    margin: 0;
+    text-decoration: none;
+    color: black;
+}
+
+.logo p {
+    background-color: #F1A050;
+    border-radius: 10px;
+    padding: 0 5px;
+}
+
+.Nav-Bar ul {
+    /* background-color: rgb(136, 136, 232);     */
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+    margin-left: 5px;
+    list-style: none;
+    gap: 30px;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    color: black;
+}
+
+.Nav-Bar ul li a:hover {
+    color: #F1A050;
+}
+
+.Nav-Bar .logo {
+    /* background-color: rgb(201, 180, 180); */
+    display: inline-block;
+}
+
+.Nav-Bar .logo a:hover {
+    color: #F1A050;
+}
+
+.Nav-Bar h2 a {
+    font-size: 70px; 
+}
+.Nav-Bar h2 p {
+    font-size: 40px;
+}
+
+.Nav-Bar .bars {
+    margin-top: 50px;
+    margin-right: 20px;
+    font-size: 30px;
+    &&:hover {
+        color: #F1A050;
+        cursor: pointer
+    };
+}
+
+.Nav-Bar .user {
+    margin-top: 50px;   
+    margin-right: 80px;
+    font-size: 30px;
+    &&:hover {
+        color: #F1A050;
+        cursor: pointer
+    };
+}
+
+.Nav-Bar-Container .barList {
+    /* background-color: aqua; */
+    display: inline-block;
+    line-height: 1.6;
+    width: 30%;
+    text-align: center;
+    animation-name: barlist;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+@keyframes barlist {
+    0% {
+        width: 0;
+        opacity: 0;
+    }
+    100% {
+        width: 20%;
+        opacity: 100%;
+    }
+}
+
+.Nav-Bar-Container .barList li:hover {
+    cursor: pointer;
+    background-color: #F1A050;
+    border-radius: 5px;
+}
+
+.active {
+    font-size: larger;
+    background-color: #FAC399;
+    padding: 5px;
+    border-radius: 8px;
+    /* font-family: "Londrina Sketch", sans-serif; */
+}

@@ -1,0 +1,22 @@
+.Process {
+    /* background-image: url('../../images/The process BG.jpg');
+    background-size: cover; 
+    -moz-background-size: cover; 
+    -o-background-size: cover;  */
+    margin: 0;
+    font-family: "Londrina Sketch", sans-serif;
+    /* font-family: "Cabin Sketch", sans-serif; */
+}
+
+.Container-Process {
+    width: 1200px;
+    margin: auto;
+}
+.Container-Process h2 {
+    font-size: 60px;
+}
+
+.Container-Process p {
+    font-size: 37px;
+    font-weight: bold;
+}
